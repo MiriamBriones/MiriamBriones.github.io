@@ -1,0 +1,47 @@
+*{
+    margin: 50;
+    padding: 50;
+    /* Se cambia el modelo de la página */
+    box-sizing: border-box;
+}
+
+.menu{
+    background-color: rgb(255, 186, 240);
+    text-align: center;
+    margin:0;
+}
+
+.menu li{ 
+    display: inline-block;
+}
+
+.menu a{
+    color: rgb(55, 0, 255);
+    text-decoration: none;
+    padding: 25px;
+    display: block;
+}
+.menu a:hover{
+    background-color: rgba(240, 248, 255, 0.999);
+    font-size: large;
+}
+
+.article{
+grid-area: article;
+background-color:palegreen;
+}
+
+.aside{
+grid-area: aside;
+background-color:rgb(179, 206, 204);
+}
+
+footer{
+    font-size: 150%;
+    margin: auto;
+}
+
+footer img{
+    height: 3%;
+    width: 3%;
+}
